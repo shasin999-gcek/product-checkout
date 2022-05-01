@@ -4,8 +4,6 @@ function OrderSummary({ ordersList, orderSubtotal, discountRate, total, appliedP
 
   return (
     <div className="p-4">
-      {/* <p className="font-italic mb-4">Shipping and additional costs are calculated based on values you have entered.
-                </p> */}
       <ul className="list-unstyled mb-4">
         {ordersList.map(order => {
           return (

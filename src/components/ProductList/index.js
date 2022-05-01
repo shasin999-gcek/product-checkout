@@ -54,8 +54,6 @@ function ProductList({ productList, onProductListUpdate }) {
                             { product.name }
                           </a>
                         </h5>
-                            {/* <span className="text-muted font-weight-normal font-italic d-block">Category:
-                          Watches</span> */}
                       </div>
                     </div>
                   </th>

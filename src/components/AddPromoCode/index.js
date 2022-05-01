@@ -31,13 +31,6 @@ const AddPromoCode = forwardRef(({ promoCodes, orderSubtotal, onPromoCodeApplied
     }
   }
 
-  // function resetForm() {
-  //   setPromocode('');
-  //   setMinOrder('');
-  //   setShowStatus(false);
-  //   setStatusType(INVALID);
-  // };
-
   useImperativeHandle(ref, () => ({
     resetForm() {
       setPromocode('');
